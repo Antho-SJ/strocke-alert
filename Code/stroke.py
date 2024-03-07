@@ -5,6 +5,8 @@ import seaborn as sns
 import numpy as np
 
 
+alpha = 0.05
+
 # Nomination des variables qualitatives et quantitatives
 variables_quantitatives = [
                             'age', 
@@ -33,12 +35,12 @@ variables_qualitatives = [
 
 
 colors_qualitative = [
-                            'midnightblue', 
-                            'orange', 
-                            'green', 
-                            'red', 
-                            'purple', 
-                            'blue', 
-                            'pink', 
-                            'cyan'
+  '#FF6F61', 
+  '#6B5B95', 
+  '#88B04B', 
+  '#F7CAC9', 
+  '#92A8D1', 
+  '#955251', 
+  '#B565A7', 
+  '#009B77'
                       ]
