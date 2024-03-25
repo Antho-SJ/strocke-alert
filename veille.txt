@@ -1,0 +1,9 @@
+La classification supervisée est une technique d'apprentissage automatique.
+Dans la classification supervisée, l'algorithme est fourni avec un ensemble de données d'entraînement contenant à la fois les caractéristiques (variables indépendantes) et les étiquettes correspondantes (variables dépendantes).
+
+La régression logistique est un algorithme de classification supervisé. Cet algorithme repose sur la fonction logisitque f(x)=1/(1+exp(-x)) qui projete les valeurs réelles dans l'intervalle [0;1], projection qui determinera la proba d'apartenance à une classe.
+La random forest se sert de plusieurs arbres de décision pour établir ses résultats. Chacuns de ces arbres de décision a une vision parcelaire du problème. Qu'est ce qu'un arbre de décision ? Il est composé de noeuds, de branches et de feuilles.
+Les branches d'un arbre de décision représentent les choix possibles, les noeuds de l'arbre de décision représentent des points de décision où les données sont divisées en sous-ensembles en fonction des valeurs de certaines caractéristiques. Et les feuilles représentent les prédictions, la sortie de l'algorithme.
+Cet algorithme utilise le bagging, qui consiste à assembler plusieurs algo "faibles" pour obtenir une prédiction "forte"
+Les algorithmes de Boosting se basent sur le même principe que ceux de Bagging. La différence apparaît lors de la création des «algo faibles». Pour le Boosting, les algorithmes ne sont plus indépendants.
+Pour le gradient boosting, chaque algo faible à le même poids dans le système de votation pour créer la future génération d'arbre.
